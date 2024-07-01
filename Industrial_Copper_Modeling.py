@@ -158,4 +158,4 @@ with tab2:
         else:
             st.write('## :red[The status is Lost] ')
 
-st.write(f'<h6 style="color:#ee4647;">App Created by Arunkumar Bairavan</h6>', unsafe_allow_html=True)
+st.write(f'<h6 style="color:#ee4647;">App Created by Padhma Priya</h6>', unsafe_allow_html=True)
