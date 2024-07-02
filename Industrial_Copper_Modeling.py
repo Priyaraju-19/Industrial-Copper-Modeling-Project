@@ -62,7 +62,7 @@ with tab1:
                 """, unsafe_allow_html=True)
 
         flag = 0
-        pattern = "^(?:\d+|\d*\.\d+)$"
+        pattern = r"^(?:\d+|\d*\.\d+)$"
         for i in [quantity_tons, thickness, width, customer]:
             if re.match(pattern, i):
                 pass
